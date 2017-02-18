@@ -13,7 +13,7 @@ Clone repo:
 Move theme files:
 
     $ cd rh-xcode/themes
-    $ mv *.dvcolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
+    $ mv *.dvtcolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
 
 Now relaunch Xcode, the themes should appear in Preferences.
 
