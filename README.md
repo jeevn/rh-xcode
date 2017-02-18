@@ -6,7 +6,16 @@ Syntax highlighting based on the colour palettes of Radiohead’s album covers, 
 
 ## Installation
 
-Move the _contents_ of [themes](themes) (not the folder itself) into `~/Library/Developer/Xcode/UserData/FontAndColorThemes/`. Then relaunch Xcode and they should appear in Preferences.
+Clone repo:
+
+    $ git clone https://github.com/jeevn/rh-xcode
+
+Move theme files:
+
+    $ cd rh-xcode/themes
+    $ mv *.dvcolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
+
+Now relaunch Xcode, the themes should appear in Preferences.
 
 ## Licence
 [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)
